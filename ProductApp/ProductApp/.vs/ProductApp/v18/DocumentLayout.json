@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\productapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:productapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\productapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:productapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\productapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductApp",
+              "DocumentIndex": 1,
+              "Title": "ProductApp.csproj",
               "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\ProductApp.csproj",
               "RelativeDocumentMoniker": "ProductApp.csproj",
               "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\ProductApp.csproj",
               "RelativeToolTip": "ProductApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-16T19:05:24.142Z",
               "EditorCaption": ""
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T17:47:25.783Z",
               "EditorCaption": ""
