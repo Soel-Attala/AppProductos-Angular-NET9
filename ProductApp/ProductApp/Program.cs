@@ -2,23 +2,30 @@ using Microsoft.EntityFrameworkCore;
 using ProductApp.Context;
 using Scalar.AspNetCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var conectionString = builder.Configuration.GetConnectionString("Connection");
-builder.Services.AddDbContext<AppDbContext>(optionsAction: options =>
-    options.UseSqlServer(conectionString));
+var connectionString = builder.Configuration.GetConnectionString("Connection");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(connectionString));
+
 builder.Services.AddControllers();
 
-//Configure CORS
+// Configure CORS - CORREGIDO
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin", policy =>
+    options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("https://localhost4200").AllowAnyMethod().AllowAnyHeader();
+        policy.WithOrigins(
+            "http://localhost:4200",
+            "https://localhost:4200"
+        )
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials();
     });
 });
-
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -32,12 +39,17 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowFrontend");
 
-app.UseHttpsRedirection();
+// En producción no usamos HTTPS redirect
+if (!app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthorization();
-
 app.MapControllers();
 
-app.Run();
+// Railway usa el puerto de la variable de entorno
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Run($"http://0.0.0.0:{port}");

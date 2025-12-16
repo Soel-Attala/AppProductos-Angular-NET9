@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\productapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:productapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|c:\\users\\soel attala\\desktop\\programacion\\appproductos-angular-net9\\productapp\\productapp\\dockerfile||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B9845E-BF2E-B782-52FF-4C0D730C6670}|ProductApp.csproj|solutionrelative:dockerfile||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductApp.http",
+              "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\ProductApp.http",
+              "RelativeDocumentMoniker": "ProductApp.http",
+              "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\ProductApp.http",
+              "RelativeToolTip": "ProductApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-16T17:55:25.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T17:55:23.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-16T17:54:42.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T17:51:37.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\AppProductos-Angular-NET9\\ProductApp\\ProductApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:47:25.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
