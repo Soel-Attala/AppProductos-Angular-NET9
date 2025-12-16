@@ -1,6 +1,3 @@
-﻿using Humanizer;
-using System.Text;
-
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
 EXPOSE 8080
@@ -19,46 +16,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ProductApp.dll"]
-```
-
----
-
-## 📄 3. Crear `.dockerignore`
-```
-**/bin/
-**/obj/
-**/.git/
-**/.vs/
-**/.vscode/
-**/node_modules/
-**/*.userFROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
-WORKDIR /app
-EXPOSE 8080
-
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-WORKDIR /src
-COPY ["ProductApp.csproj", "./"]
-RUN dotnet restore "ProductApp.csproj"
-COPY . .
-RUN dotnet build "ProductApp.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "ProductApp.csproj" -c Release -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ProductApp.dll"]
-```
-
----
-
-## 📄 3. Crear `.dockerignore`
-```
-**/bin/
-**/obj/
-**/.git/
-**/.vs/
-**/.vscode/
-**/node_modules/
-**/*.user
