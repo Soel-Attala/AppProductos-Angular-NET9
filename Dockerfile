@@ -4,15 +4,12 @@ EXPOSE 8080
 
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
-COPY ["ProductApp.csproj", "./"]
-RUN dotnet restore "ProductApp.csproj"
+COPY ProductApp.csproj .
+RUN dotnet restore
 COPY . .
-RUN dotnet build "ProductApp.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "ProductApp.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "ProductApp.dll"]
