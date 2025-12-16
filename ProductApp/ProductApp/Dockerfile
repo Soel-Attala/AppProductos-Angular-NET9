@@ -7,7 +7,8 @@ WORKDIR /src
 COPY ProductApp.csproj .
 RUN dotnet restore
 COPY . .
-RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish ProductApp.csproj -c Release -o /app/publish /p:UseAppHost=false
+
 
 FROM base AS final
 WORKDIR /app
